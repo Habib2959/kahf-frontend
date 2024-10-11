@@ -1,0 +1,15 @@
+/** @type {import('tailwindcss').Config} */
+export default {
+	content: [
+		"./index.html",
+		"./src/**/*.{html,js,ts,jsx,tsx,mdx}",
+		"./src/*.{html,js,ts,jsx,tsx,mdx}",
+	],
+	theme: {
+		extend: {},
+	},
+	plugins: [],
+	future: {
+		hoverOnlyWhenSupported: true,
+	},
+};
